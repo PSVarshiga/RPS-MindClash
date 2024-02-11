@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Rock,paper & scissor</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <section class="game">
+      <div class="intro">
+        <h1>Rock, Paper & Scissors</h1>
+      </div>
+
+      <div class="score">
+        <h2>
+          You
+          <br>
+          <hr>
+          Score: <span class="you">0</span>
+        </h2>
+        <h2>
+          Computer
+          <br>
+          <hr>
+          Score: <span class="computer">0</span>
+        </h2>
+      </div>
+
+      <div class="match">
+        <div class="hands">
+          <img class="player-hand" src="rock.png" alt="" />
+          <h2 class="result"></h2>
+          <img class="computer-hand" src="rock.png" alt="" />
+        </div>
+
+        <h2 class="winner">Choose an option</h2>
+        <div class="options">
+          <button class="rock">
+            <img src="./rock.svg" alt="rock"></img>
+            <br>
+            <label>rock</label>
+          </button>
+          <button class="paper">
+            <img src="./paper.svg" alt="paper"></img>
+            <br>
+            <label>paper</label>
+          </button>
+          <button class="scissor">
+            <img src="./scissor.svg" alt="scissor"></img>
+            <br>
+            <label>scissor</label>
+          </button>
+        </div>
+      </div>
+      
+      <!----- Reset Button ----->
+      <div class="reset-div">
+        <button class="reset">Reset Game</button>
+      </div>
+
+    </section>
+  </body>
+</html>
